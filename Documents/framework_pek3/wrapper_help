@@ -1,0 +1,11 @@
+rm 1mmcluster00*
+rm cluster00*
+rm createdChildrenAt00*
+rm cur_hier.*
+rm merged*
+rm cutStats*
+rm *4d*
+rm dendrogram.rda tableF.txt 
+
+./wrapper.R h2.cc h2_start.nii h3_start.nii 13 
+
